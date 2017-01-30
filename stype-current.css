@@ -3290,7 +3290,7 @@ object {
 	.has-sidebar #secondary {
 		float: right;
 		padding-top: 0;
-		width: 25%; /* Li: from 36 -> 25*/
+		width: 28%; /* Li: from 36 -> 28*/
 	}
 
 	.error404 #primary {
@@ -3751,7 +3751,7 @@ object {
 	body.page-two-column:not(.archive) #primary .entry-header,
 	body.page-two-column.archive:not(.has-sidebar) #primary .page-header {
 		float: left;
-		width: 25%; /* Li: from 36 -> 25*/
+		width: 28%; /* Li: from 36 -> 28*/
 	}
 
 	.blog:not(.has-sidebar) #primary article,
@@ -3823,12 +3823,12 @@ object {
 
 	.has-sidebar .entry-content blockquote.alignleft {
 		margin-left: 0;
-		width: 25%; /* Li: from 34 -> 25*/
+		width: 28%; /* Li: from 34 -> 28*/
 	}
 
 	.has-sidebar .entry-content blockquote.alignright {
 		margin-right: 0;
-		width: 25%; /* Li: from 34 -> 25*/
+		width: 28%; /* Li: from 34 -> 28*/
 	}
 
 	.has-sidebar #primary .entry-content blockquote.alignright.below-entry-meta {
@@ -3851,7 +3851,7 @@ object {
 	.archive:not(.has-sidebar) .entry-content blockquote.alignright,
 	.page-two-column .entry-content blockquote.alignright {
 		margin-right: 0;
-		width: 25%; /* Li: from 36 -> 25*/
+		width: 28%; /* Li: from 36 -> 28*/
 	}
 
 	/* Post formats */
