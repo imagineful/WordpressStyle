@@ -3707,7 +3707,7 @@ object {
 	/* Posts */
 
 	.site-content {
-		padding: 5.5em 0 0;
+		padding: 1.75em 0 0; /*Li change padding from 5.5em to 1.75 em, much better */
 	}
 
 	.single-post .entry-title,
