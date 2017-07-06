@@ -446,15 +446,15 @@ h6:first-child {
 }
 
 h1 {
-	font-size: 24px;
-	font-size: 1.5rem;
-	font-weight: 300;
+	font-size: 15px;
+	font-size: 1rem;
+	font-weight: 200;
 }
 
 h2 {
 	color: #666;
-	font-size: 20px;
-	font-size: 1.25rem;
+	font-size: 15px;
+	font-size: 1rem;
 	font-weight: 300;
 }
 
@@ -3140,8 +3140,9 @@ object {
 	}
 
 	h1 {
-		font-size: 30px;
-		font-size: 1.875rem;
+        /* the real h1 font value setting */
+		font-size: 20px;
+		font-size: 1.25rem;
 	}
 
 	h2,
@@ -4116,15 +4117,15 @@ object {
 	}
 
 	h1 {
-		font-size: 24pt;
+		font-size: 15pt;
 	}
 
 	h2 {
-		font-size: 22pt;
+		font-size: 15pt;
 	}
 
 	h3 {
-		font-size: 17pt;
+		font-size: 15pt;
 	}
 
 	h4 {
