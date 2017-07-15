@@ -72,7 +72,7 @@ section {
 }
 
 h1 {
-	font-size: 2em;
+	font-size: 1.15em;
 	margin: 0.67em 0;
 }
 
@@ -446,9 +446,9 @@ h6:first-child {
 }
 
 h1 {
-	font-size: 15px;
-	font-size: 1rem;
-	font-weight: 200;
+	font-size: 18px;
+	font-size: 1.15rem;
+	font-weight: 300;
 }
 
 h2 {
@@ -658,7 +658,7 @@ html[lang="ur"] h3,
 html[lang="ur"] h4,
 html[lang="ur"] h5,
 html[lang="ur"] h6 {
-	font-weight: 700;
+	font-weight: 500;
 }
 
 /* Typography for Chinese Font */
@@ -718,7 +718,7 @@ html[lang="uk"] h3,
 html[lang="uk"] h4,
 html[lang="uk"] h5,
 html[lang="uk"] h6 {
-	font-weight: 700;
+	font-weight: 500;
 	line-height: 1.2;
 }
 
@@ -760,7 +760,7 @@ html[lang="mr-IN"] h3,
 html[lang="mr-IN"] h4,
 html[lang="mr-IN"] h5,
 html[lang="mr-IN"] h6 {
-	font-weight: 700;
+	font-weight: 500;
 }
 
 /* Typography for Greek Font */
@@ -779,7 +779,7 @@ html[lang="el"] h3,
 html[lang="el"] h4,
 html[lang="el"] h5,
 html[lang="el"] h6 {
-	font-weight: 700;
+	font-weight: 500;
 	line-height: 1.3;
 }
 
@@ -799,7 +799,7 @@ html[lang="gu-IN"] h3,
 html[lang="gu-IN"] h4,
 html[lang="gu-IN"] h5,
 html[lang="gu-IN"] h6 {
-	font-weight: 700;
+	font-weight: 500;
 }
 
 /* Typography for Hebrew Font */
@@ -818,7 +818,7 @@ html[lang="he-IL"] h3,
 html[lang="he-IL"] h4,
 html[lang="he-IL"] h5,
 html[lang="he-IL"] h6 {
-	font-weight: 700;
+	font-weight: 500;
 }
 
 /* Typography for Japanese Font */
@@ -837,7 +837,7 @@ html[lang="ja"] h3,
 html[lang="ja"] h4,
 html[lang="ja"] h5,
 html[lang="ja"] h6 {
-	font-weight: 700;
+	font-weight: 500;
 }
 
 /* Typography for Korean font */
@@ -856,7 +856,7 @@ html[lang="ko-KR"] h3,
 html[lang="ko-KR"] h4,
 html[lang="ko-KR"] h5,
 html[lang="ko-KR"] h6 {
-	font-weight: 600;
+	font-weight: 500;
 }
 
 /* Typography for Thai Font */
@@ -1405,7 +1405,7 @@ a:hover .nav-title,
 	display: none;
 	font-size: 14px;
 	font-size: 0.875rem;
-	font-weight: 800;
+	font-weight: 500;
 	line-height: 1.5;
 	margin: 1px auto 2px;
 	padding: 1em;
@@ -1566,9 +1566,9 @@ body {
 
 .site-title {
 	clear: none;
-	font-size: 24px;
-	font-size: 1.5rem;
-	font-weight: 800;
+	font-size: 18px;
+	font-size: 1.15rem;
+	font-weight: 500;
 	line-height: 1.25;
 	letter-spacing: 0.08em;
 	margin: 0;
@@ -1576,8 +1576,11 @@ body {
 	text-transform: uppercase;
 }
 
+/* Li: here set the title font */
 .site-title,
 .site-title a {
+    font-weight: 500;
+    font-size: 36px;
 	color: #222;
 	opacity: 1; /* Prevent opacity from changing during selective refreshes in the customize preview */
 }
@@ -3024,7 +3027,7 @@ object {
 	display: block;
 	font-size: 14px;
 	font-size: 0.875rem;
-	font-weight: 700;
+	font-weight: 500;
 	letter-spacing: 1px;
 	padding: 3em;
 	text-transform: uppercase;
@@ -3191,7 +3194,7 @@ object {
 	/* Site Branding */
 
 	.site-branding {
-		padding: 3em 0;
+		padding: 1em 0;
 	}
 
 	/* Front Page */
@@ -3364,8 +3367,8 @@ object {
 	}
 
 	.site-title {
-		font-size: 36px;
-		font-size: 2.25rem;
+		font-size: 18px;
+		font-size: 1.15rem;
 	}
 
 	.site-description {
@@ -3624,7 +3627,7 @@ object {
 	.twentyseventeen-front-page.has-header-video .site-branding,
 	.home.blog.has-header-image .site-branding,
 	.home.blog.has-header-video .site-branding {
-		margin-bottom: 70px;
+		margin-bottom: 50px;
 	}
 
 	.twentyseventeen-front-page.has-header-image .custom-header-media,
@@ -4174,11 +4177,11 @@ object {
 
 	.site-branding {
 		margin-top: 0;
-		margin-bottom: 1.75em !important; /* override styles added by JavaScript */
+		margin-bottom: 1em !important; /* override styles added by JavaScript */
 	}
 
 	.site-title {
-		font-size: 25pt;
+		font-size: 18pt;
 	}
 
 	.site-description {
